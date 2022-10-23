@@ -259,6 +259,7 @@ section {
 }
 
 .about .row .content p {
+  text-align: justify;
   font-size: 1.5rem;
   color: var(--light-color);
   line-height: 2;
@@ -351,6 +352,7 @@ section {
 }
 
 .galeri .box-container {
+  margin-top: 30px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
@@ -368,7 +370,7 @@ section {
 }
 
 .galeri .box-container .box .image {
-  height: 40rem;
+  height: 30rem;
   overflow: hidden;
 }
 
@@ -401,11 +403,6 @@ section {
   text-transform: capitalize;
 }
 
-.galeri .box-container .box .content .info p {
-  font-size: 1.5rem;
-  color: var(--light-color);
-  line-height: 2;
-}
 
 .galeri .box-container .box .content i {
   width: 7.5rem;
@@ -538,52 +535,14 @@ section {
   color: var(--white);
 }
 
+
+
 .contact .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  gap: 2rem;
+  text-align: center;
 }
-
-.contact .row .map {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 41rem;
-          flex: 1 1 41rem;
-  width: 100%;
-}
-
-.contact .row form {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 41rem;
-          flex: 1 1 41rem;
-  background: var(--white);
-  padding: 2rem;
-}
-
-.contact .row form h3 {
-  font-size: 2.5rem;
-  color: var(--black);
-  text-transform: capitalize;
-}
-
-.contact .row form .box {
-  margin: .7rem 0;
-  width: 100%;
-  padding: 1.5rem 0;
-  border-bottom: var(--border);
-  font-size: 1.6rem;
-  color: var(--light-color);
-}
-
-.contact .row form .box:focus {
-  border-color: var(--yellow);
-}
-
-.contact .row form textarea {
-  height: 15rem;
-  resize: none;
+.contact .row iframe{
+  margin-right: 100px;
+  margin-top: 30px;
 }
 
 .logo-container {
@@ -599,6 +558,9 @@ section {
           user-select: none;
 }
 
+.logo-container img .swiper-wrapper{
+  margin-right: 30px;
+}
 
 .footer {
   text-align: center;
