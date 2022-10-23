@@ -415,7 +415,7 @@ section {
 }
 
 .reviews .slide p {
-  text-align: justify;
+  text-align: center;
   padding: 1.5rem;
   background: var(--light-bg);
   position: relative;
