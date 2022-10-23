@@ -458,6 +458,10 @@ section {
   text-transform: capitalize;
 }
 
+.reviews .slide p{
+  text-align: justify;
+}
+
 .reviews .slide .user .stars {
   padding-top: .5rem;
 }
