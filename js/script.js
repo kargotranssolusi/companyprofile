@@ -1,3 +1,4 @@
+let navbar = document.querySelector('.header .navbar');
 let contactInfo = document.querySelector('.contact-info');
 
 
