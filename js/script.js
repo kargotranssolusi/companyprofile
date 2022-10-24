@@ -1,5 +1,4 @@
-let navbar = document.querySelector('.header .navbar');
-let searchForm = document.querySelector('.header .search-form');
+let contactInfo = document.querySelector('.contact-info');
 
 
 document.querySelector('#menu-btn').onclick = () =>{
@@ -7,7 +6,17 @@ document.querySelector('#menu-btn').onclick = () =>{
    searchForm.classList.remove('active');
 };
 
+document.querySelector('#info-btn').onclick = () =>{
+  contactInfo.classList.add('active');
+}
 
+document.querySelector('#close-contact-info').onclick = () =>{
+  contactInfo.classList.remove('active');
+}
+
+window.onscroll = () =>{
+  contactInfo.classList.remove('active');
+}
 
 var swiper = new Swiper(".home-slider", {
    loop:true,
