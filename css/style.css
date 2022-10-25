@@ -334,6 +334,7 @@ section {
 
 .about .row .video video {
   width: 100%;
+  margin-top: -1000px;
 }
 
 .about .row .content {
@@ -355,6 +356,25 @@ section {
   line-height: 2;
   padding: 1rem 0;
 }
+
+.about .row .content ol {
+  margin-left: 30px;
+  font-size: 1.5rem;
+  text-align: justify;
+  color: var(--light-color);
+  line-height: 2;
+  padding: 1rem 0;
+}
+
+.about .row .content ul {
+  margin-left: 90px;
+  font-size: 1.5rem;
+  text-align: justify;
+  color: var(--light-color);
+  line-height: 2;
+  padding: 1rem 0;
+}
+
 
 .about .box-container {
   margin-top: 3rem;
