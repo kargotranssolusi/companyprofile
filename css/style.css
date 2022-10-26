@@ -347,8 +347,8 @@ section {
 
 .about .row .content p {
   text-align: justify;
-  margin-top: -10px;
-  font-size: 1.5rem;
+  letter-spacing: -1px; 
+  font-size: 16px;
   color: var(--light-color);
   line-height: 2;
   padding: 1rem 0;
@@ -356,7 +356,8 @@ section {
 
 .about .row .content ol {
   margin-left: 100px;
-  font-size: 1.5rem;
+  letter-spacing: -1px; 
+  font-size: 16px;
   text-align: justify;
   color: var(--light-color);
   line-height: 2;
@@ -365,7 +366,8 @@ section {
 
 .about .row .content ul {
   margin-left: 90px;
-  font-size: 1.5rem;
+  letter-spacing: -1px; 
+  font-size: 16px;
   text-align: justify;
   color: var(--light-color);
   line-height: 2;
