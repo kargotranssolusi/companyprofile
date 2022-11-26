@@ -2,7 +2,7 @@ $('.msger-send-btn').click(function(){
     let chat = $('.msger-input').val();
     let kata = chat.split(" ");
     
-    $.getJSON("https://raw.githubusercontent.com/EGraci/chat-bot-jquery/main/jawaban.json", 
+    $.getJSON("https://raw.githubusercontent.com/Anzhel18/PT.EML/main/jawaban.json", 
         function(data) {
             let jawaban = "";
             let jumlah = 0;
