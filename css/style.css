@@ -811,3 +811,42 @@ span.other{
   font-size: 14px;
   color: grey;
 }
+
+.faq-menu{
+  display: flex;
+  padding: 0 5px;
+  cursor: pointer;
+  border: 2px solid #000000;
+  border-radius: 50px;
+  height: 6vh;
+  display: flex;
+  margin: 10px 70px;
+  align-items: center;
+}
+.faq-menu .faq-icon{
+  margin: 0 10px 0 0;
+  width: 30px;
+  height: 30px;
+  background: url(../images/plus-kecil.png) no-repeat;
+  float: left;
+  transition: all .5s ease-in;
+}
+.faq-menu h5{
+  font-size: 22px;
+  margin: 0;
+  padding: 3px 0 0 0;
+  font-weight: normal;
+}
+.faq-dropdown{
+  padding: 0 100px 0 33px;
+  border-left: 1px solid #000000;
+  margin-left: 80px;
+  font-size: 14px;
+  text-align: justify;
+  overflow: hidden;
+  max-height: 0;
+  transition: all .5s ease-in;
+}
+.jawab .faq-icon{
+  background: url(../images/minus-kecil.png) no-repeat;
+}
